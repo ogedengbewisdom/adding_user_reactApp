@@ -1,0 +1,11 @@
+
+
+.userOutput {
+    border: 1px solid gainsboro;
+    padding: 6px;
+    margin: 5px 0 4px 0;
+    font-weight: 500;
+    list-style: none;
+    font-size: medium;
+
+}
