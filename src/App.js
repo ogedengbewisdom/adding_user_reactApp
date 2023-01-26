@@ -1,16 +1,18 @@
 import React from 'react';
-import UserBackground from './components/UserBackground';
+import NewUser from './components/NewUser/NewUser';
+import UserBackground from './components/Users/UserBackground';
 
 function App() {
 
   const users = [
-    {name: "Max", age: 31},
-    {name: "Wisdom", age: 28},
-    {name: "Mercy", age: 13},
-    {name: "Grace", age: 4}
+    {id:"e23", name: "Max", age: 31},
+    {id:"t73", name: "Wisdom", age: 28},
+    {id:"z56", name: "Mercy", age: 13},
+    {id:"y98", name: "Grace", age: 4}
   ]
   return (
     <div>
+      <NewUser />
       <UserBackground
        item={users}
       />
