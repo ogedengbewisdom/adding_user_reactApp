@@ -21,3 +21,52 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .cont {
+    width: 35%;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0px 10px 10px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0.3px 4px white; 
+    position: relative;  
+    top: 23vh;  
+    
+  }
+
+  header {
+    background-color: rgb(91, 23, 91);
+    color: white;
+    width: 560px;
+    margin: 2px 2px 2px 0;
+    padding: 0px 0px 1px 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+  }
+
+h3 {
+    margin: 5px 10px 20px 10px;
+    padding-top: 13px;
+}
+
+p {
+    margin: 30px 10px 30px 10px;
+}
+
+.button {
+    
+   display: flex;
+   justify-content: flex-end;
+}
