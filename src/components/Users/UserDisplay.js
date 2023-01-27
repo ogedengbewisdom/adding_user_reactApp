@@ -1,4 +1,4 @@
-import styles from "./UserDisplay.module.css"
+import styles from "../Users/UserDisplay.module.css"
 
 const UserDisplay = (props) => {
 
