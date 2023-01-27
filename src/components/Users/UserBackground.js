@@ -1,8 +1,9 @@
 
 import styles from "./UserBackground.module.css"
-import UserDisplay from "./UserDisplay"
+import UserDisplay from "../Users/UserDisplay"
 
 const UserBackground = (props) => {
+
     
     return (
         <div>
