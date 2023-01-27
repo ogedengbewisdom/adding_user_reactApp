@@ -2,11 +2,20 @@ import UserInput from "./UserInput"
 import styles from "./NewUser.module.css"
 
 
-const NewUser = () => {
+const NewUser = (props) => {
+
+    const userHandler = (userData) => {
+        const users = {
+            ...userData,
+            id: Math.random().toString()
+        }
+
+        props.users(users)
+    }
 
     return (
         <div className={styles.newUser}>
-            <UserInput />
+            <UserInput onAddUser={userHandler} />
         </div>
     )
 }
